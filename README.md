@@ -4,7 +4,7 @@ Steganography is the practice of hiding a secret message inside of (or even on t
 The purpose of steganography is to conceal and deceive. It is a form of covert communication and can involve the use of any medium to hide messages. It’s not a form of cryptography, because it doesn’t involve scrambling data or using a key. Instead, it is a form of data hiding and can be executed in clever ways
 </p><br>
 
-<b> Least Significant Bit (LSB) Method </b>
+### Least Significant Bit (LSB) Method
 <p align="justify"> The Least Significant Bit (LSB) steganography is one such technique in which least significant bit of the image is
 replaced with data bit. As this method is vulnerable to steganalysis so as to make it more secure we encrypt the raw
 data before embedding it in the image. Though the encryption process increases the time complexity, but at the same
@@ -12,7 +12,8 @@ time provides higher security also. This approach is very simple. In this method
 all of the bytes inside an image is replaced with a bits of the secret message. The LSB embedding approach has
 become the basis of many techniques that hide messages within multimedia carrier data. </p>
 <br>
-<b> PNG Image Structure </b>
+
+### PNG Image Structure
 <br><br>
 
 ![alt text](/images/image1.png)
@@ -28,7 +29,7 @@ become the basis of many techniques that hide messages within multimedia carrier
   4. Convert normal text to cipher text.
   5. Hide key + plain text inside pixels.
   
-  <br><br>
+  <br>
   <b> Decryption Steps </b>
  
   1. Select Image
@@ -38,6 +39,9 @@ become the basis of many techniques that hide messages within multimedia carrier
   5. If there is match, show secret text. If not, show error message.
   
 <br>
-<b> Application Images </b>
+
+### Application Image
+
+<br>
   
-  
+![alt text](/images/image2.png)
