@@ -13,5 +13,5 @@ all of the bytes inside an image is replaced with a bits of the secret message. 
 become the basis of many techniques that hide messages within multimedia carrier data. </p>
 <br>
 <b> PNG Image Structure </b>
-
+<br><br>
 ![alt text](/images/image1.png)
