@@ -11,3 +11,5 @@ data before embedding it in the image. Though the encryption process increases t
 time provides higher security also. This approach is very simple. In this method the least significant bits of some or
 all of the bytes inside an image is replaced with a bits of the secret message. The LSB embedding approach has
 become the basis of many techniques that hide messages within multimedia carrier data. </p>
+<br>
+<b> PNG Image Structure </b>
