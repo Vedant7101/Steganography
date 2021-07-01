@@ -14,4 +14,30 @@ become the basis of many techniques that hide messages within multimedia carrier
 <br>
 <b> PNG Image Structure </b>
 <br><br>
+
 ![alt text](/images/image1.png)
+
+<br>
+<p> Each pixel of PNG image contains 4 colors i.e. Red, Green, Blue and Alpha. In this application, Alpha is used to hide text. Alpha represents opacity of image. In this application, last 2 bits of Alpha is changed. Each character in secret text is represented by 8 bit. Application stores 2 bits of secret text in each pixel. Therefore, 4 pixels are required to store single character. 
+<br><br>  
+  <b> Encryption Steps </b>
+  
+  1. Select Image
+  2. Get plain text from user.
+  3. Get key from user.
+  4. Convert normal text to cipher text.
+  5. Hide key + plain text inside pixels.
+  
+  <br><br>
+  <b> Decryption Steps </b>
+ 
+  1. Select Image
+  2. Get key from user.
+  3. Decipher key and plain text.
+  4. Match key inside image with key received from user.
+  5. If there is match, show secret text. If not, show error message.
+  
+<br>
+<b> Application Images </b>
+  
+  
